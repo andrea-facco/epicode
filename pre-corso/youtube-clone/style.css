@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+  display: flex;
+  margin: 0;
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+}
+
+.main {
+  width: 100%;
+}
+
+.topbar {
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sidebar {
+  height: 35vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 0 0.5em;
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5em 1em;
+  border-radius: 6px;
+  transition: 50ms;
+}
+
+.icon:hover {
+  background: #c5c5c5;
+  cursor: pointer;
+}
+
+.icon:active {
+  background: #808080;
+  color: #fff;
+}
+
+.icon ion-icon {
+  font-size: 2em;
+}
+
+.icon p {
+  margin: 0;
+}
+
+.logo {
+  height: 50%;
+}
+
+.search-wrapper {
+  display: flex;
+  height: 50%;
+  width: 30%;
+}
+
+.search-wrapper input {
+  width: 100%;
+  padding: 0 1em;
+}
+
+.icons-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.top-icon {
+  font-size: 2em;
+  padding: 0 0.5em;
+}
+
+.mic-icon {
+  display: flex;
+  align-items: center;
+}
+
+.search-btn {
+  padding: 0 0.7em;
+  font-size: 1.3em;
+  display: flex;
+  align-items: center;
+}
+
+/* CHALLENGE */
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 2em 0;
+}
+
+.box-video {
+  margin-bottom: 3em;
+}
+
+.video img {
+  width: 750px;
+  transition: 250ms;
+}
+
+.video img:hover {
+  cursor: pointer;
+  opacity: 80%;
+  transform: scale(0.95);
+}
+
+.descr {
+  display: flex;
+  align-items: center;
+  margin-top: 0.5em;
+}
+
+.descr img {
+  width: 80px;
+}
+
+.descr img:hover {
+  cursor: pointer;
+  opacity: 90%;
+}
+
+.descr h3,
+.descr p {
+  margin: 0.2em 0 0 1em;
+}

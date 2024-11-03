@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <form onsubmit="alert('Registrazione inviata!')">
+    <h1>Servizio di Streaming Musicale</h1>
+    <p>Compila il seguente modulo per registrarti</p>
+
+    <fieldset>
+      <!-- nome -->
+      <div class="info">
+        <label for="name">Nome:</label>
+        <input type="text" name="name" id="name" placeholder="Inserisci il tuo nome" required>
+      </div>
+      <!-- cognome -->
+      <div class="info">
+        <label for="last-name">Cognome:</label>
+        <input type="text" name="last-name" id="last-name" placeholder="Inserisci il tuo cognome" required>
+      </div>
+      <!-- email -->
+      <div class="info">
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="Inserisci la tua email" required>
+      </div>
+      <!-- password -->
+      <div class="info">
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" placeholder="Password" required>
+      </div>
+      <!-- data di nascita -->
+      <div class="info">
+        <label for="birthday">Data di nascita:</label>
+        <input type="date" name="birthday" id="birthday" required>
+      </div>
+      <!-- cell -->
+      <div class="info">
+        <label for="cellphone">Telefono:</label>
+        <input type="number" name="cellphone" id="cellphone" placeholder="Telefono" required>
+      </div>
+    </fieldset>
+
+    <!-- musica preferita -->
+    <fieldset id="pref-gen-section">
+      <legend>Musica preferita <span>(facoltativo)</span></legend>
+
+      <div class="pref-gen">
+        <input type="checkbox" name="pref-music" id="classic">
+        <label for="classic">Classica</label>
+      </div>
+
+      <div class="pref-gen">
+        <input type="checkbox" name="pref-music" id="jazz">
+        <label for="jazz">Jazz</label>
+      </div>
+
+      <div class="pref-gen">
+        <input type="checkbox" name="pref-music" id="death-metal">
+        <label for="death-metal">Death Metal</label>
+      </div>
+
+      <div class="pref-gen">
+        <input type="checkbox" name="pref-music" id="rock">
+        <label for="rock">Rock</label>
+      </div>
+
+      <div class="pref-gen">
+        <input type="checkbox" name="pref-music" id="lofi">
+        <label for="lofi">Lofi</label>
+      </div>
+    </fieldset>
+
+    <!-- termini e condizioni -->
+    <div id="term-cond">
+      <input type="radio" name="terms" id="terms">
+      <label for="terms">Accetto i <span>termini</span> e le <span>condizioni</span>.</label>
+    </div>
+
+    <!-- submit -->
+    <button type="submit">Invia registrazione</button>
+  </form>
+</body>
+
+</html>

@@ -1,0 +1,146 @@
+body {
+  background: #14213d;
+  font-family: sans-serif, "Roboto";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* introduzione */
+
+#presentazione {
+  width: 600px;
+  background: #e5e5e5;
+  box-shadow: 0px 0px 15px 5px #fca311;
+  border-radius: 10px;
+  padding: 0 0.5em;
+}
+
+header {
+  text-align: center;
+  background: linear-gradient(#e5e5e5 90%, #fff);
+  border-radius: 10px 10px 0 0;
+  padding: 1em;
+  display: flex;
+}
+
+img {
+  width: 150px;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+
+h1,
+p {
+  text-align: justify;
+  margin: 15px 0;
+}
+
+p {
+  font-size: 14px;
+}
+
+/* interessi */
+#interessi {
+  background: #fff;
+  border-radius: 0 0 20px 20px;
+  padding: 5px 0;
+}
+
+h4 {
+  margin: 5px 40px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+h4 span {
+  font-style: italic;
+}
+
+section ul {
+  margin: 0;
+}
+
+section ul li {
+  margin-left: 80px;
+  padding: 2px;
+}
+
+/* esperienze */
+table,
+caption {
+  background: #e5e5e5;
+}
+
+caption {
+  text-transform: uppercase;
+  text-align: left;
+  font-weight: bold;
+  margin: 5px 0 10px 20px;
+}
+
+table,
+th,
+td {
+  border-collapse: collapse;
+  border: 2px solid #fca311;
+  margin: 1em auto;
+  padding: 0.5em;
+  text-align: center;
+  font-size: 14px;
+}
+
+td.descrizione,
+th {
+  text-align: justify;
+}
+
+th {
+  background: #fca31150;
+  color: #14213d;
+}
+
+td {
+  background: #fff;
+}
+
+tbody span {
+  font-weight: bold;
+  font-size: 12px;
+}
+
+/* contatti */
+footer {
+  background: linear-gradient(#fff, #e5e5e5);
+  border-radius: 20px 20px 0 0;
+}
+
+footer h4 {
+  padding-top: 10px;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer ul li {
+  margin-left: 40px;
+  padding-bottom: 5px;
+}
+
+footer ul li span,
+a {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  color: #fca311;
+}

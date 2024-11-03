@@ -1,0 +1,170 @@
+body {
+  margin: 0;
+  font-family: sans-serif, "Montserrat";
+}
+
+.main-section {
+  padding: 20px;
+}
+
+/* immagini background */
+.image-container {
+  height: 500px;
+  background: url(../images/riomaggiore.jpg);
+  background-size: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.image-container-corniglia {
+  height: 500px;
+  background: url(../images/corniglia.jpg);
+  background-size: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.image-container-manarola {
+  height: 500px;
+  background: url(../images/manarola.jpg);
+  background-size: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.image-container-monterosso {
+  height: 500px;
+  background: url(../images/monterosso.jpg);
+  background-size: 100vw;
+  background-repeat: no-repeat;
+}
+
+.image-container-vernazza {
+  height: 500px;
+  background: url(../images/vernazza.jpg);
+  background-size: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* ------------------------------- */
+
+h1,
+h3 {
+  font-family: sans-serif, "Prata";
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+h1 {
+  font-size: 64px;
+}
+
+h3 {
+  font-size: 24px;
+  margin-top: 0;
+}
+
+a {
+  font-weight: 600;
+  font-style: italic;
+}
+
+/* luoghi correlati - riomaggiore */
+h6.riomaggiore {
+  padding: 22px;
+  margin-bottom: 0;
+  margin-top: 56px;
+  color: #fff;
+  border-radius: 6px;
+  background: linear-gradient(90deg, #1d4046, #dd8f5a);
+}
+
+ul.riomaggiore li a {
+  color: #1d4046;
+}
+
+/* corniglia */
+h6.corniglia {
+  padding: 22px;
+  margin-bottom: 0;
+  margin-top: 56px;
+  color: #fff;
+  border-radius: 6px;
+  background: linear-gradient(90deg, #8da4b9, #656e3e);
+}
+
+ul.corniglia li a {
+  color: #8da4b9;
+}
+
+/* manarola */
+h6.manarola {
+  padding: 22px;
+  margin-bottom: 0;
+  margin-top: 56px;
+  color: #fff;
+  border-radius: 6px;
+  background: linear-gradient(90deg, #d0be9f, #5d7b8c);
+}
+
+ul.manarola li a {
+  color: #d0be9f;
+}
+
+/* monterosso */
+h6.monterosso {
+  padding: 22px;
+  margin-bottom: 0;
+  margin-top: 56px;
+  color: #fff;
+  border-radius: 6px;
+  background: linear-gradient(90deg, #4f563e, #5a9abc);
+}
+
+ul.monterosso li a {
+  color: #4f563e;
+}
+
+/* vernazza */
+h6.vernazza {
+  padding: 22px;
+  margin-bottom: 0;
+  margin-top: 56px;
+  color: #fff;
+  border-radius: 6px;
+  background: linear-gradient(90deg, #deaa84, #142d34);
+}
+
+ul.vernazza li a {
+  color: #deaa84;
+}
+
+/* ------------------------------------- */
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li {
+  padding: 6px 0 6px 22px;
+  border-bottom: 1px solid #dfdfdf;
+}
+
+ul li a {
+  text-decoration: none;
+}
+
+footer {
+  background: #000;
+  padding: 16px;
+  text-align: center;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+}
+
+footer a {
+  color: #fff;
+}

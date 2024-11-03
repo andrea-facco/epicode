@@ -1,0 +1,106 @@
+body {
+  font-family: sans-serif, "Roboto";
+  background: url(images/diego-catto-DI6ywiG5N0g-unsplash.jpg);
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  width: 480px;
+  background: #faedcd;
+  border-radius: 10px;
+  padding: 1em;
+  box-shadow: 0px 0px 15px 5px #d4a373;
+}
+
+h1,
+p {
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+p {
+  margin: 2em 0 2.5em 0;
+  letter-spacing: 0.5px;
+  font-size: 1.1em;
+}
+
+fieldset {
+  border: none;
+}
+
+/* info utente */
+.info input {
+  display: block;
+  margin-bottom: 8px;
+  height: 2em;
+  width: 100%;
+  border: none;
+  border-radius: 3px;
+}
+
+.info {
+  width: 60%;
+  margin: 0 auto;
+}
+
+/* musica preferita */
+#pref-gen-section {
+  width: 60%;
+  margin: 8px auto;
+  background: #d4a37330;
+  border-radius: 6px;
+}
+
+legend,
+legend span {
+  font-weight: bold;
+}
+
+legend span {
+  font-size: 12px;
+  font-style: italic;
+}
+
+.pref-gen {
+  margin-left: 1em;
+}
+
+/* termini e condizioni */
+#term-cond {
+  text-align: center;
+  margin: 2em 0 2.5em 0;
+}
+
+#term-cond span {
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* button */
+button {
+  display: block;
+  margin: 1em auto;
+  padding: 1.3em 2.3em;
+  background: #d4a373;
+  border: none;
+  border-radius: 6px;
+  color: #fefae0;
+  transition: 250ms;
+}
+
+button:hover {
+  background: #ccd5ae;
+  cursor: pointer;
+}
+
+button:active {
+  background: #e9edc9;
+  color: #d4a373;
+}
