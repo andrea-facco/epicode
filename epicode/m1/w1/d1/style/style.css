@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif, "Roboto";
+}
+
+/* header */
+header {
+  text-align: center;
+}
+
+nav {
+  padding: 20px 0;
+}
+
+nav img {
+  width: 250px;
+}
+
+header p {
+  background: #fefae0;
+  padding: 15px 0;
+  border-top: 3px solid #ccd5ae;
+  color: #0a7777;
+  margin-bottom: 30px;
+}
+
+header p span {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/* main */
+main {
+  padding: 20px 40px;
+  width: 40%;
+  margin: 0 auto;
+}
+
+#top-section {
+  text-align: center;
+}
+
+h1 {
+  font-size: 30px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+#top-section-description {
+  text-align: left;
+  padding: 35px 0 15px;
+}
+
+#top-section-img img {
+  border-radius: 5px;
+  box-shadow: 6px 6px 5px 0px rgba(171, 171, 171, 1);
+}
+
+#top-section-img p {
+  color: #777;
+  padding-top: 15px;
+  margin-bottom: 50px;
+}
+
+#feature {
+  text-align: left;
+  border-left: 3px solid #bbb;
+  padding-left: 15px;
+  margin-bottom: 70px;
+}
+
+#feature h3 {
+  text-transform: uppercase;
+  color: #ff0000;
+  font-weight: lighter;
+  font-size: 18px;
+}
+
+/* mid-section */
+.section-title {
+  border-bottom: 2px solid #5555;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+
+h4 {
+  padding-bottom: 15px;
+}
+
+.ingredients {
+  padding-bottom: 10px;
+}
+
+.ingredients li {
+  padding-bottom: 15px;
+  margin-left: 50px;
+}
+
+/* bottom-section */
+.method li {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.method p {
+  margin-left: 10px;
+  line-height: 1.3em;
+}
+
+/* footer */
+footer {
+  width: 45%;
+  margin: 0 auto;
+  padding-bottom: 25px;
+}
