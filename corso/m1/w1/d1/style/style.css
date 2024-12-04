@@ -46,13 +46,13 @@ header p span {
 
 /* introduction */
 main {
-  padding: 0 20%;
+  padding: 70px 20% 0;
 }
 
 h1 {
   text-align: center;
-  margin-top: 50px;
   font-size: 4em;
+  padding: 0 10%;
 }
 
 #introduction {
