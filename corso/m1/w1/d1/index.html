@@ -6,43 +6,44 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My first page</title>
   <link rel="stylesheet" href="./style/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
-  <!-- logo and nav -->
-  <header>
+  <!-- logo  -->
+  <nav>
     <img src="./images/logo.png" alt="logo simply recipes">
-    <p>Part of <span>a simply fabulous thanksgiving</span></p>
-  </header>
+    <p class="align-center">Part of <span class="uppercase-text">a simply fabulous thanksgiving</span></p>
+  </nav>
 
-  <main>
+  <main class="side-padding">
     <!-- introduction -->
     <section>
-      <h1>Focaccia with Caramelized Onions, Cranberries, and Brie</h1>
-      <p id="introduction">Wow your taste buds with this festive focaccia appetizer topped with sweet caramelized
+      <h1 id="title" class="align-center">Focaccia with Caramelized Onions, Cranberries, and Brie</h1>
+      <p>Wow your taste buds with this festive focaccia appetizer topped with sweet caramelized
         onions, tart
         cranberries, and creamy brie. It will become your new favorite holiday starter!</p>
 
-      <!-- introduction img -->
-      <div id="introduction-img">
-        <img src="./images/img.webp" alt="focaccia image">
-        <p>Image: Sally Vegas</p>
+      <div class="img-container">
+        <img class="main-img" src="./images/img.webp" alt="focaccia image">
       </div>
+      <p class="align-center grey-text">Image: Sally Vegas</p>
 
-      <!-- feature -->
-      <div id="feature">
-        <h3>Featured in:</h3>
-        <h4><a href="#">Fresh cranberry recipes that go beyond sauce</a></h4>
+      <div id="feature-container">
+        <h3 class="red-text uppercase-text">Featured in:</h3>
+        <h4><a class="grey-text size-20 capital-text" href="#">Fresh cranberry recipes that go beyond sauce</a></h4>
       </div>
     </section>
 
+    <!-- ingredients -->
     <section>
-      <!-- ingridients -->
-      <h2>Ingredients</h2>
+      <h2 class="subtitle">Ingredients</h2>
 
-      <!-- focaccia -->
-      <div class="list">
-        <h4>For the focaccia:</h4>
+      <div class="list-container ingredients">
+        <h4 class="size-20">For the focaccia:</h4>
         <ul>
           <li>4 cups (500g) all-purpose flour</li>
           <li>11/2 teaspoons instant yeast</li>
@@ -52,9 +53,8 @@
         </ul>
       </div>
 
-      <!-- topping -->
-      <div class="list">
-        <h4>For the topping:</h4>
+      <div class="list-container ingredients">
+        <h4 class="size-20">For the topping:</h4>
         <ul>
           <li>3 medium yellow onions, thinly sliced</li>
           <li>1 tablespoon balsamic vinegar</li>
@@ -66,9 +66,9 @@
       </div>
 
       <!-- method -->
-      <h2>Method</h2>
+      <h2 class="subtitle">Method</h2>
 
-      <div class="list">
+      <div class="list-container method">
         <ol>
           <li>
             <h4>Make the focaccia dough</h4>
@@ -82,8 +82,8 @@
   </main>
 
   <!-- footer -->
-  <footer>
-    <p>Read more on <a href="#">Simply recipes</a></p>
+  <footer class="side-padding">
+    <p>Read more on <a class="capital-text" href="#">Simply recipes</a></p>
   </footer>
 </body>
 
