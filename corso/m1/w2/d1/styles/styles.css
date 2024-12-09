@@ -1,0 +1,85 @@
+.container-card {
+  width: 510px;
+  position: relative;
+}
+
+.container-card img {
+  width: 100%;
+  border-radius: 50px;
+}
+
+.save-btn {
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 30px 35px;
+  border: none;
+  background: #ff0000;
+  border-radius: 50px;
+  position: absolute;
+  right: 40px;
+  top: 20px;
+  display: none;
+}
+
+.bottom-btn button {
+  position: absolute;
+  bottom: 40px;
+  display: none;
+}
+
+.bottom-btn button:first-child {
+  left: 10px;
+}
+
+.bottom-btn button:nth-child(2) {
+  left: 310px;
+}
+
+.bottom-btn button:last-child {
+  left: 400px;
+}
+
+.bottom-btn button {
+  border: none;
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0 15px;
+}
+
+.bottom-btn button:first-child {
+  border-radius: 50px;
+  padding: 20px 40px;
+}
+
+.bottom-btn button:not(:first-child) {
+  border-radius: 50%;
+  padding: 20px 23px;
+}
+
+.container-card:hover img {
+  filter: brightness(0.6);
+}
+
+.container-card:hover button {
+  cursor: pointer;
+  display: inline-block;
+}
+
+.save-btn:hover {
+  top: 30px;
+  transition: 150ms;
+}
+
+.save-btn:active {
+  background: #c01515;
+}
+
+.bottom-btn button:hover {
+  bottom: 50px;
+  transition: 250ms;
+}
+
+.bottom-btn button:active {
+  background: #9e9e9e;
+}
