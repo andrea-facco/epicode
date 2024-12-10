@@ -1,3 +1,10 @@
+body {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+
 .container-card {
   width: 510px;
   position: relative;
